@@ -30,8 +30,7 @@ else:
     int = 2
     player = Detective(strength, dex, int)
 
-    # total = Game.roll_dice()
-    total = 12
+    total = Game.roll_dice()
     print("Rolling Dice:")
     print(total)
     print(player.strength)
